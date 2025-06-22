@@ -1549,6 +1549,97 @@ h3.hello1 span {
 
 
 
+/* From Uiverse.io by Medisetti-Venkata-Saikiran */ 
+.social-login-icons {
+  display: flex;
+  align-items: center;
+}
+.social-login-icons svg {
+  width: 30px;
+}
+
+.social-icon-1,
+.social-icon-2,
+.social-icon-3,
+.social-icon-4 {
+  width: 40px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+  
+}
+/* .social-icon-1 i{
+    color: rgba(175, 7, 7, 0.899);
+    font-size:50px;
+
+} */
+/* .social-icon-2 i{
+    color: skyblue;
+    font-size:50px;
+
+} */
+/* .social-icon-3 i{
+    color: rgb(58 58 227 / 87%);
+    font-size:50px;
+
+} */
+/* .social-login-icons{
+    margin: 30px 0px;
+} */
+
+.socialcontainer {
+  height: 50px;
+  overflow: hidden;
+}
+.social-icon-1 {
+  transition-duration: 0.4s;
+  background-color: rgb(0, 0, 0);
+  margin-right: 10px;
+}
+.socialcontainer:hover .social-icon-1 {
+  transform: translateY(-50px);
+}
+.social-icon-2 {
+  transition-duration: 0.4s;
+  margin-right: 10px;
+  background: linear-gradient(
+    #ff1201 51.56%,
+    #f66b2f 85.69%
+  );
+
+}
+.socialcontainer:hover .social-icon-2 {
+  transform: translateY(-50px);
+}
+.social-icon-3 {
+  transition-duration: 0.4s;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 89, 253) 0%,
+    rgb(32, 165, 254) 91%
+  );
+  margin-right: 10px;
+
+}
+
+.socialcontainer:hover .social-icon-3 {
+  transform: translateY(-50px);
+}
+.social-icon-4 {
+  transition-duration: 0.4s;
+  margin-right: 10px;
+  background: linear-gradient(
+    180deg,
+    rgb(221, 0, 255) 0%,
+    rgb(123, 0, 255) 91%
+  );
+}
+
+.socialcontainer:hover .social-icon-4 {
+  transform: translateY(-50px);
+}
 
 
 
