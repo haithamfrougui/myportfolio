@@ -28,9 +28,6 @@ function setActiveStyle(color) {
 /* ========================== theme light and dark mode =========================== */
 const dayNight = document.querySelector('.day-night');
 
-// Set dark mode as default
-document.body.classList.add('light');
-
 dayNight.addEventListener('click', () => {
   dayNight.querySelector('i').classList.toggle('fa-moon');
   dayNight.querySelector('i').classList.toggle('fa-sun');
@@ -38,7 +35,7 @@ dayNight.addEventListener('click', () => {
 });
 
 window.addEventListener('load', () => {
-  if (document.body.classList.contains('light')) {
+  if (document.body.classList.contains('dark')) {
     dayNight.querySelector('i').classList.add('fa-moon');
   } else {
     dayNight.querySelector('i').classList.add('fa-sun');
