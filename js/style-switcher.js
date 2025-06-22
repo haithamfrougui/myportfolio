@@ -29,7 +29,7 @@ function setActiveStyle(color) {
 const dayNight = document.querySelector('.day-night');
 
 // Set dark mode as default
-document.body.classList.add('dark');
+document.body.classList.add('light');
 
 dayNight.addEventListener('click', () => {
   dayNight.querySelector('i').classList.toggle('fa-moon');
